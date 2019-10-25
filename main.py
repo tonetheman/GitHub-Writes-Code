@@ -10,7 +10,7 @@ class PurpleBananaMonkey:
     
     def isMonkey(monkey_type):
         if (monkey_type):
-            return true
+            return True
 
 
 def main():
@@ -26,7 +26,9 @@ def main():
     elif choice == 3:
         print("https://twitter.com/")
 
-
+    monkey = PurpleBananaMonkey()
+    if monkey.isMonkey():
+        print("i am a monkey")
 
 if __name__ == "__main__":
     main()
